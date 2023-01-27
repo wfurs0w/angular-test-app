@@ -1,0 +1,4 @@
+FROM    nginx:1.23.3-alpine
+ARG     RELEASE_DIR=/usr/share/nginx/html
+COPY    ./junior-test-app-starterkit.zip ${RELEASE_DIR}
+RUN     apk del curl
