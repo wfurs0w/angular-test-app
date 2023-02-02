@@ -15,14 +15,18 @@
 
         </mat-toolbar>
 
-
         <mat-nav-list fxFlex="grow" fxLayout="column">
+          <mat-divider></mat-divider>
           <a fxFlex="none" mat-list-item class="white-color" routerLink="/main" (click)="drawer.toggle()" >
             <p mat-line class="name">Головна</p>
             <fa-icon style="color: white" [icon]="faChevronRight"></fa-icon>
           </a>
           <mat-divider></mat-divider>
-
+          <a fxFlex="none" mat-list-item class="white-color" routerLink="/table" (click)="drawer.toggle()" >
+            <p mat-line class="name">Таблиця</p>
+            <fa-icon style="color: white" [icon]="faChevronRight"></fa-icon>
+          </a>
+          <mat-divider></mat-divider>
         </mat-nav-list>
       </div>
 

@@ -1,0 +1,44 @@
+.loader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  padding: 20px;
+
+  &__filters {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__search {
+    width: 20%
+  }
+
+  &__filter {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 17%;
+}
+
+th.mat-header-cell {
+  text-align: center;
+  font-weight: 700;
+}

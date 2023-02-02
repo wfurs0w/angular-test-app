@@ -1,0 +1,26 @@
+<mat-form-field class="table__filter-param">
+  <mat-label>Організація</mat-label>
+  <input 
+    matInput 
+    (keyup)="organizationFilter($event)"
+    placeholder="Введіть дані для пошуку" 
+    #input>
+</mat-form-field>
+
+<mat-form-field class="table__filter-param">
+  <mat-label>Підрозділ</mat-label>
+  <input 
+    matInput 
+    (keyup)="departmentFilter($event)" 
+    placeholder="Введіть дані для пошуку" 
+    #input>
+</mat-form-field>
+
+<mat-form-field class="table__filter-param">
+  <mat-label>Контрагент</mat-label>
+  <input 
+    matInput 
+    (keyup)="contragentFilter($event)" 
+    placeholder="Введіть дані для пошуку" 
+    #input>
+</mat-form-field>
