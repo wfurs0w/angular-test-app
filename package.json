@@ -1,5 +1,6 @@
 {
-  "name": "app",
+  "homepage": "https://wfurs0w.github.io/angular-test-app/",
+  "name": "angular-test-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -31,6 +32,7 @@
     "linqts": "^1.14.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "vercel": "^28.15.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
